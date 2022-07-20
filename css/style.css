@@ -1,0 +1,240 @@
+/* google fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* common calsses */
+.container{
+    margin: auto 8%;
+}
+.bg-black{
+    background-color: #161616;
+}
+.btn{
+    background: #DD0000;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 6px;
+}
+.active-btn{
+    background-color: #DD0000 !important;
+}
+.font-color-white{
+    color: #fff !important;
+}
+
+/* header style */
+
+header{
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.header-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.header-info{
+    max-width: 50%;
+}
+.header-info .hearer-title{
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+.header-info .header-intro{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.header-info .btn{
+    margin-top: 16px;
+}
+.header-info .btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-info .btn span{
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.header-img img{
+    height: 613px;
+}
+
+/* header end */
+
+/* main section start */
+main{
+    margin: auto 8%;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    margin: 4% 0;
+    gap: 30px;
+}
+.navbar{
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.navbar ul li{
+    list-style: none;
+    background-color: #FFFFFF;
+    width: 252px;
+    height: 64px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #161616;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px
+}
+
+/* blogs */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.blog{
+    box-shadow: 0 0 25px #c2c2c2;
+    border-radius: 10px;
+}
+.blog .blog-thumbnail img{
+    width: 100%;
+}
+.blog-info{
+    padding: 10px 15px;
+}
+.blog-info .transfer{
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+.blog-info .blog-title{
+    margin: 4% 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+}
+.blog-info .blog-icons{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+/* main section start */
+
+/* website 2 style */
+/* upcomming matches */
+.upcomming{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.upcomming-matches{
+    box-shadow: 0 0 25px #c2c2c2;
+    border-radius: 10px;
+}
+.upcomming-matches .match{
+    padding: 50px 30px;
+}
+.match .flags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flags .flag{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.match-info{
+    margin: 5% 0px;
+}
+.match-info h1{
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.match-info p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+/* footer start */
+
+footer{
+    padding: 5% 0;
+}
+footer h1{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2%;
+}
+footer hr{
+    width: 83%;
+    margin: 3% auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .footer-nav-main{
+    width: 70%;
+    margin: 2% auto
+}
+footer .footer-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .footer-nav li{
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+}
+footer .footer-nav li a{
+    text-decoration: none;
+    color: #B9B9B9;
+}
+.footer-nav-icons{
+    width: 20%;
+    margin: auto;
+}
+footer .footer-nav li a i{
+    font-size: 25px;
+}
+
+/* footer end */
