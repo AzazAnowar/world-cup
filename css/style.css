@@ -194,6 +194,21 @@ main{
     color: #4D4D4D;
 }
 
+/* view all but for tablet */
+.btn-container{
+    text-align: center;
+    margin: 3% 0;
+    display: none;
+}
+.lode-more a{
+    text-decoration: none;
+    color: #fff;
+}
+.lode-more span i{
+    color: #fff;
+}
+
+
 /* footer start */
 
 footer{

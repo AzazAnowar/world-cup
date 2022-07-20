@@ -136,6 +136,10 @@
         width: 100%;
     }
 
+    /* view all btn */
+    .btn-container{
+        display: block;
+    }
     /* footer style */
     footer h1{
         font-size: 30px;
